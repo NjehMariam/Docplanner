@@ -1,0 +1,364 @@
+.header-docplanner{
+
+    display:flex;/*Pour travailler sur l'axe principale horizantale*/
+    
+    justify-content:space-around;
+    padding:0px 35px;
+    align-items: center;
+
+
+}
+.logo-docplanner{
+    width: 268px;
+    height: 33px;
+}
+body{
+    font-family:  sans-serif;
+    color:grey;
+    font-size: 16px;
+   /* padding-top: 70px;*/
+    margin:0px;
+    
+}
+.menu:hover{
+    color:#00ccb1;
+    
+}
+a{  color :grey;
+    
+    text-decoration:none;/*Pour enlever la ligne*/
+    
+}
+
+a:hover{
+    color:#00ccb1;
+}
+
+
+.active{
+color:#00ccb1;
+
+}
+/*a:visited{
+    color:#00ccb1;
+}*/
+.section1{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    /*position:relative;*/
+
+    
+
+
+}
+.section1-logo{
+   
+    text-align:center;
+}
+.section1-title{
+    color:#00ccb1;
+}
+ 
+
+.section1-paragraphe{
+     display :flex ;
+     justify-content:center;
+     width:800px;
+
+ }
+ .section2 {
+     display:flex;
+     justify-content:center;
+     
+     
+ }
+ .section2-carte1{
+    background: #00ccb1;
+    color:white;
+   height:436px;
+   width:383px;
+    position: relative;
+    padding:20px 40px;
+    margin:10px;
+    border-radius:10px;
+  }
+  .carte-for-patient{
+      display:flex;
+    width:100%;
+
+    right: 0;
+    position:absolute;
+    overflow:hidden;
+    justify-content:space-between;
+    
+    
+    
+   
+
+}
+.imgforpatient{
+    width:400px;
+    height:248.75px;
+
+    
+}
+
+.carte-patient-selected{
+   height:40px;
+   width:170px;
+   padding-left:18px ;
+   
+   padding-right:42px;
+   padding-top:0px;
+   padding-bottom:0px;
+   margin-left:10px;
+
+    display:flex;
+
+  
+    color:black;
+    border :white solid 2px;
+    border-radius: 0;
+    
+    cursor:pointer;
+}
+
+
+
+
+  .section2-carte2{
+    background: #3d83df;
+    color:white;
+    height:436px;
+    width:383px;
+    position: relative;
+    padding:20px 40px;
+    margin:10px;
+    border-radius:10px;
+  }
+.carte-for-doctors{
+    width:300px;
+    
+    
+    right: 0;
+    position:absolute;
+    overflow:hidden;
+    
+}
+.imgfordoctor{
+    width:400px;
+    height:248.75px;
+
+}
+.section3-horscarte{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    margin:20px 25px;
+    
+}
+li{
+    list-style-type: none;
+    cursor:pointer;
+    color:grey;
+}
+.section3-horscarte-list{
+    display:flex;
+    flex-wrap:wrap;
+   
+    justify-content: center;
+
+}
+.section3-horscarte-title{
+    color:#00ccb1;
+    
+    
+    margin-right:12px;
+    padding:10px;
+ 
+}
+.ul{
+display:flex;
+flex-wrap:wrap;
+width:625px;
+height:96px;
+/*justify-content:space-around;*/
+/*padding:5px;
+width:360px;*/
+
+
+
+
+}
+.list{
+    padding:5px;
+    height:45px;
+    width:168px;
+}
+list:hover{
+    color:blueviolet;
+}
+.icon{
+    height:20px;
+    width:20px;
+}
+.section4{
+    
+    background: #c8f0e2;
+    display:flex;
+    background-image: url("https://www.docplanner.com/img/logo.png");
+    background-color
+    overflow:hidden;
+    
+    /*background-position: 10%;*/
+    background-position-y: 100%;
+    background-size: 35%;
+    
+
+
+    
+    padding:20px 25px;
+    background-repeat:no-repeat;
+
+    position:relative;
+    
+
+}
+.section4-part1title{
+    color:#00b39b;
+    padding:5px;
+}
+.section4-part2{
+    display:flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 10px;
+   margin:20px;
+}
+.section4-part2-1{
+    display:flex;
+    justify-content:space-around;
+    padding:10px;
+    margin:10px;
+}
+.flag2-1{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
+    height: 250px;
+    text-align: center;
+    padding: 15px;
+   
+}
+.item2{
+    height:250px;
+width:218px;
+    padding:15px;
+    margin:15px 0px 5px 10px;
+}
+.item3{
+    height:250px;
+width:218px;
+    padding:10px;
+    margin-top:25px;
+    /*margin:10px;*/
+}
+.item4{
+    height:250px;
+    width:218px;
+        padding:15px;
+        margin:15px 0px 5px 10px;
+        /*margin:20px;*/
+    
+}
+
+.section4-part2-2{
+    display:flex;
+    justify-content:center;
+}
+
+.section5part1{
+    text-align:center;
+}
+.section5part1title{
+    color:#00b39b;
+    margin:40px;
+}
+
+.section5part2{ 
+    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  
+}
+.section2part2-1{
+    display:flex;
+    flex-direction:row;
+}
+.section2part2-2{
+    display:flex;
+    flex-direction:row;
+}
+
+.imgitem1{
+
+    flex-basis:33%;
+    border-radius: 8px;
+    cursor: pointer;
+    padding:5px;
+  
+}
+.imgitem2{
+   
+    flex-basis:33%;
+    border-radius: 8px;
+    padding:5px;
+    cursor: pointer;
+}
+.desc{
+    display:flex;
+    /*justify-content:space-around;*/
+    text-align:center;
+    padding:0px 5px;
+}
+.btn{
+    padding:10px 15px;
+    background:blue;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+    margin:0px 20px 10px;
+    height:30px;
+    width:110px;
+}
+.footer{
+    text-align:center;
+}
+.parag-footer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    
+}
+.footerlist{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding:2px;
+}
+.flist{
+       color: #3d83df;
+
+}
+.alist{
+    color: #3d83df;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    cursor:pointer;
+  
+}
+/*a:visited{
+    color:#00ccb1;
+}
